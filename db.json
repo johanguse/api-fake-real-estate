@@ -1,16 +1,34 @@
 {
-  "posts":[
+  "imoveis": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "id": 1,
+      "title": "Casa com Piscina",
+      "deal": "sale",
+      "type": "house",
+      "bed": "4",
+      "district": "Centro",
+      "price": "R$ 2.600.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520011556/chatbot-imoveis/casa-centro.jpg"
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "id": 2,
+      "title": "Casa Costa e Silva",
+      "deal": "sale",
+      "type": "house",
+      "bed": "3",
+      "district": "Costa e Silva",
+      "price": "R$ 280.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014276/chatbot-imoveis/casa-costa-silva.jpg"
+    },
+    {
+      "id": 3,
+      "title": "AP América",
+      "deal": "sale",
+      "type": "ap",
+      "bed": "2",
+      "district": "América",
+      "price": "R$ 460.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
     }
   ]
 }
