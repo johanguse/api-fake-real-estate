@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "name": "api-fake-real-estate",
+  "builds": [
+      { "src": "go/*.go", "use": "@now/go" },
+      { "src": "nodejs/*.js", "use": "@now/node" },
+      { "src": "php-7/*.php", "use": "@now/php" },
+      { "src": "python/*.py", "use": "@now/python" },
+      { "src": "vue/package.json", "use": "@now/static-build" },
+      { "src": "create-react-app/package.json", "use": "@now/static-build" },
+      { "src": "static/**", "use": "@now/static" },
+      { "src": "nextjs/next.config.js", "use": "@now/next" },
+      { "src": "nextjs-static/package.json", "use": "@now/static-build" },
+      { "src": "html-minifier/index.html", "use": "@now/html-minifier" },
+      { "src": "mdx-deck/deck.mdx", "use": "@now/mdx-deck" },
+      { "src": "node-server/index.js", "use": "@now/node-server" },
+      { "src": "optipng/showcase.png", "use": "@now/optipng" },
+      { "src": "nodejs-hapi/index.js", "use": "@now/node-server" },
+      { "src": "nodejs-koa/index.js", "use": "@now/node" },
+      { "src": "gatsby/package.json", "use": "@now/static-build", "config": {"distDir": "public"} }
+  ]
+}
