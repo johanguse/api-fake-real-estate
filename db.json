@@ -1,5 +1,20 @@
 {
-  "imoveis": [
+  "district": [
+    {
+      "id_district": "1",
+      "name": "América"
+    },
+    {
+      "id_district": "2",
+      "name": "Centro"
+    },
+    {
+      "id_district": "3",
+      "name": "Costa e Silva"
+    }
+
+  ],
+  "property": [
     {
       "id": 1,
       "title": "Casa com Piscina",
@@ -28,6 +43,16 @@
       "bed": "2",
       "district": "América",
       "price": "R$ 460.000",
+      "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
+    },
+    {
+      "id": 4,
+      "title": "AP Centro",
+      "deal": "rent",
+      "type": "ap",
+      "bed": "2",
+      "district": "Centro",
+      "price": "R$ 1.200",
       "photo": "https://res.cloudinary.com/dvcywi3uf/image/upload/v1520014434/chatbot-imoveis/ap-america.jpg"
     }
   ]
